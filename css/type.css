@@ -22,14 +22,9 @@ h3 {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-p, li {
-    line-height: 2.25em;
-    font-size: 100%;
-    letter-spacing: 0.75px;
-}
 
 p {
-    margin-bottom: 1.5em;
+    margin: 1em;
 }
 
 li {
@@ -46,7 +41,7 @@ li {
 }
 
 /*Hyperlinks---------------------------------------------*/
-li>a.social-links {
+.social-links:hover {
   text-decoration: none;
   color: #6BD1C5;
 }
@@ -81,7 +76,7 @@ h3.subhead {
 
 .title {
    padding: 30px;
-   margin: 50px auto;
+   margin: 0px auto;
 }
 
 .single .title {
@@ -98,9 +93,6 @@ h3.subhead {
     text-align: center;
 }
 
-.entry h3 {
-    padding-bottom: 0.5em;
-}
 
 /*Widgets---------------------------------------------*/
 
@@ -139,7 +131,9 @@ h3.subhead {
     .keyword {
         width: 100%;
     }
-   
+   #social p {
+    font-size: 90%;
+}
 }
 
 @media screen and (min-width: 341px) and (max-width: 489px) {
@@ -161,11 +155,11 @@ h3.subhead {
         font-size: 80%;
     }
     
-    @medin and (min-widht:360px) and (max-width:640px){
+}
+@media and (min-widht:360px) and (max-width:640px){
         .keyword {
             width: 100%;
         }
-    }
 
 
 /*-----------------------------------------------------*/
@@ -202,6 +196,9 @@ h3.subhead {
     h3.subhead {
         font-size: 150%;
     }
+       #social p {
+    font-size: 100%;
+}
 
 }
 

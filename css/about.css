@@ -1,5 +1,13 @@
+.yo img {
+    margin: 10% 0%;
+}
+
+.resume {
+    width: 40%;
+    border-radius: 5px;
+}
 .skills h4 {
-    font-size: 80%;
+    font-size: 100%;
     text-transform: uppercase;
     padding-right: 20px;
     line-height: 1.5em;
@@ -20,22 +28,12 @@
     display: inline-block,
 }
 
-/*Bars---------------------------------------------*/
+/*Barras---------------------------------------------*/
 
 .skills .skill .bar span {
     min-width: 1%;
     display: inline-block;
     height: 10px;
-}
-
-.skills .skill .bar span.trade {
-}
-
-.skills .skill .bar span.experience {
-}
-
-.skills .skill .bar span.interest {
-
 }
 
 /*Nivel---------------------------------------------*/
@@ -52,7 +50,7 @@ span.better {
     background: #FF9875;
 }
 
-/*skills---------------------------------------------*/
+/*Habilidades---------------------------------------------*/
 
 #html span {
     width: 90%;
@@ -63,11 +61,19 @@ span.better {
 }
 
 #git span {
+    width: 40%;
+}
+
+#arte span{
     width: 50%;
 }
 
-#sass span{
-    width: 30%;
+#javascript span{
+    width: 20%;
+}
+
+#uxUi span{
+    width: 20%;
 }
 
 #javascript span{
@@ -79,7 +85,29 @@ span.better {
 }
 
 #fotografia span{
+    width: 80%;
+}
+
+#curiosidad span {
+    width: 95%;
+}
+
+#ingles span {
+    width: 50%;
+}
+#investigacion span {
     width: 70%;
+}
+
+#autodidacta span {
+    width: 80%;
+}
+
+#seo span {
+    width: 20%;
+}
+#adwords span {
+    width: 20%;
 }
 
 
@@ -109,7 +137,7 @@ span.better {
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     .skills {
-        padding: 30px 60px;
+        padding: 30px 25px;
     }
 }
 

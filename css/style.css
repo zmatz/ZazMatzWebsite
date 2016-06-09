@@ -13,8 +13,13 @@ html, body {
 
 header {
     height: 400px;
+    text-align: center;
 }
 
+.topBar {
+    background-color: #e0e3e5;
+    padding: 10px 0px;
+}
 
 #main {
     border-bottom: 1px solid #e0e3e5;
@@ -28,7 +33,7 @@ hr {
     width: 10%;
 }
 .brand p {
-    font-size: 150%;
+    font-size: 130%;
     font-family: 'Poire One', 'Oswald';
 }
 /*Widgets---------------------------------------------*/
@@ -117,6 +122,10 @@ hr {
 }
 
 /*Footer/Bottom---------------------------------------*/
+.workT {
+    margin: 10px 0px;
+    text-align: center;
+}
 
 #bottom {
     padding: 20px 0px;
@@ -162,7 +171,11 @@ hr {
         border-right: 0px solid #f4f4f4;
     }
 
-   
+   .brand p {
+    font-size: 130%;
+    font-family: 'Poire One', 'Oswald';
+    text-align: center;
+}
 
     #bottom ul li {
         display: block;
@@ -178,7 +191,11 @@ hr {
 /*-----------------------------------------------------*/
 
 @media screen and (min-width: 490px) and (max-width: 769px) {
-
+.brand p {
+    font-size: 130%;
+    font-family: 'Poire One', 'Oswald';
+    text-align: center;
+}
     
     #bottom ul {
         text-align: center;

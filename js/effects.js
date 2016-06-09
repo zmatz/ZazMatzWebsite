@@ -1,13 +1,37 @@
 $(document).ready(function () {
+
     $('.sobreMi').hide();
-    $('.acordeonSobreMi').click(function(){
-        $('.sobreMi').slideToggle('slow');
+    $('.proyectos').hide();
+    $('.contactaMe').hide(); //esconde cada seccion al cargar la pagina
+
+    $('.acordeonSobreMi').click(function(){ 
+        $('.proyectos').hide();
+        $('.contactaMe').hide();
+        $('.sobreMi').toggle( function(){
+            window.location.hash = "aboutMe"    
+        });
+   });
+    
+    $('.acordeonProyectos').click(function(){
+        $('.sobreMi').hide(); 
+        $('.contactaMe').hide();
+        $('.proyectos').toggle(function(){
+            window.location.hash = "uTest"    
+        });
+        
    });
 
-    $('.proyectos').hide();
-    $('.acordeonProyectos').click(function(){
-        $('.proyectos').slideToggle('slow');
+        
+    $('.acordeonContacto').click(function(){
+        $('.sobreMi').hide();
+        $('.proyectos').hide();
+        $('.contactaMe').toggle( function(){
+            window.location.hash = "contact"    
+        });
+        
    });
+
+
 
 
     /*------------------------------------------------------------------*/

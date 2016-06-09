@@ -68,33 +68,17 @@ img, .wp-caption {
 /*Contacto------------------------------------------------*/
 .icons_contact {
     width: 10%;
+    margin: 5% 40%;
 }
+
+
 
 /*Social------------------------------------------------*/
 
 #social a{
-    padding: 0px 10px;
+    padding: 20px;
     display: inline-block;
-}
-
-/*Instagrams------------------------------------------------*/
-
-.single-instagrams .content .entry{
-    text-align: center;
-}
-
-.single-instagrams .content .entry p {
-    margin-bottom: 0em;
-}
-
-.single-instagrams .content .entry a {
-    background: transparent;
-    padding: 0px 0px;
-}
-
-.single-instagrams .content .entry p.insta-link a{
-    background: none repeat scroll 0 0 #F0F3F5;
-    padding: 4px 5px 3px;
+    text-align: right;
 }
 
 
@@ -106,40 +90,6 @@ img, .wp-caption {
     height: auto;
     margin-bottom: 1em;
 }
-
-/*Post Pages----------------------------------------------*/
-
-.entry img, .photo img {
-    max-width: 100%;
-    height: auto;
-    width: 100%;
-}
-
-.pale-image {
-    border: 1px solid #e0e3e5;
-}
-
-
-/*Slideshows----------------------------------------------*/
-
-.royalSlider {
-    border: 1px solid #e0e3e5;
-    margin-bottom: 2em;
-}
-
-.single .rsUni .rsGCaption {
-    background: #666666;
-    color: #ccc;
-    padding: 8px 10px;
-    border-radius: 0;
-    font-size: 75%;
-    width: 100%;
-    left: 0;
-    bottom: 0px;
-    line-height: 1.5em;
-}
-
-
 
 /*----------------------------------------------------------*/
 
@@ -167,20 +117,19 @@ a#contact {
         height: 175px;
     }
 
-    .photo {
-        padding: 0px 0em 0.5em;
+    .icons_contact {
+    width: 25%;
     }
 
-    .entry img, .photo img {
-        max-width: 100%;
-        height: auto;
-        width: 100%;
+    .brand p {
+        text-align: center;
+        padding: 0px;
+        font-size: 150%;
     }
 
     #social {
         text-align: center;
-        padding-right: 0px;
-        padding-top: 1em;
+        padding: 0px;
     }
     #blogroll article .photo a {
         min-width: 175px;
@@ -196,20 +145,11 @@ a#contact {
     .home .widget a {
         height: 225px;
     }
-
-    .photo {
-        padding: 0px 0em 1em;
+    
+    .icons_contact {
+    width: 25%;
     }
-
-    .instagram {
-        text-align: center;
-    }
-
-    .entry img, .photo img {
-        max-width: 100%;
-        height: auto;
-        width: 100%;
-    }
+    
 
     #social {
         text-align: center;
@@ -235,37 +175,21 @@ a#contact {
         border-right-color: #f4f4f4;
     }
 
-    .instagram {
-        text-align: center;
+    .icons_contact {
+    width: 15%;
     }
 
-    .photo {
-        padding: 0px 0em 1em;
-        text-align: center;
-    }
-
-    .photo img {
-        max-width: 75%;
-        height: auto;
-        width: 75%;
-    }
-
-    .entry img {
-        max-width: 100%;
-        height: auto;
-        width: 100%;
-    }
-
+    
     #social {
         text-align: center;
         padding-right: 0px;
         padding-top: 1em;
     }
-    #blogroll article .photo a {
-        min-width: 175px;
-        min-height: 175px;
+    #social img {
+        text-align: right;
+        padding-right: 0px;
+        padding-top: 1em;
     }
-
 }
 
 /*----------------------------------------------------------*/
@@ -275,28 +199,15 @@ a#contact {
         height: 215px;
     }
 
-    .entry img, .photo img {
-        max-width: 100%;
-        height: auto;
-        width: 100%;
-    }
-
-    .photo {
-        padding-right: 2em;
+    .icons_contact {
+    width: 15%;
     }
 
     #social {
-        text-align: right;
+        text-align: center;
         padding-right: 20px;
     }
-    #blogroll article .photo a {
-        min-width: 100px;
-        min-height: 100px;
-    }
-
-    #site-description #toggle {
-        width: 25%;
-    }
+    
 
 }
 
@@ -305,22 +216,10 @@ a#contact {
         height: 165px;
     }
 
-    .photo {
-        padding-right: 2em;
-    }
 
     #social {
-        text-align: right;
+        text-align: center;
         padding-right: 20px;
-    }
-    #blogroll article .photo a {
-        min-width: 175px;
-        min-height: 175px;
-    }
-
-    .single-instagrams .content img{
-        width: 75%;
-        max-width: 768px;
     }
 
 }
@@ -330,30 +229,13 @@ a#contact {
         height: 215px;
     }
 
-    .entry img, .photo img {
-        max-width: 100%;
-        height: auto;
-        width: 100%;
-    }
 
-    .photo {
-        padding-right: 2em;
-    }
 
     #social {
-        text-align: right;
+        text-align: center;
         padding-right: 20px;
     }
 
-    #blogroll article .photo a {
-        min-width: 175px;
-        min-height: 175px;
-    }
-
-    .single-instagrams .content img{
-        width: 75%;
-        max-width: 768px;
-    }
 
 
 }
