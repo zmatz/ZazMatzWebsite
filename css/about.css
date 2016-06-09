@@ -1,0 +1,123 @@
+.skills h4 {
+    font-size: 80%;
+    text-transform: uppercase;
+    padding-right: 20px;
+    line-height: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.skills .skill {
+    padding: 1em 0em;
+}
+
+.skills .skill .bar {
+    background: none repeat scroll 0 0 #F0F3F5;
+    height: 10px;
+    line-height: 0em;
+}
+
+.skills .skill span {
+    display: inline-block,
+}
+
+/*Bars---------------------------------------------*/
+
+.skills .skill .bar span {
+    min-width: 1%;
+    display: inline-block;
+    height: 10px;
+}
+
+.skills .skill .bar span.trade {
+}
+
+.skills .skill .bar span.experience {
+}
+
+.skills .skill .bar span.interest {
+
+}
+
+/*Nivel---------------------------------------------*/
+
+span.great {
+    background: #6BD4C8;
+}
+
+span.good {
+    background: #EFDC5C;
+}
+
+span.better {
+    background: #FF9875;
+}
+
+/*skills---------------------------------------------*/
+
+#html span {
+    width: 90%;
+}
+
+#bootstrap span {
+    width: 80%;
+}
+
+#git span {
+    width: 50%;
+}
+
+#sass span{
+    width: 30%;
+}
+
+#javascript span{
+    width: 20%;
+}
+
+#gestion_proyectos span {
+    width: 90%;
+}
+
+#fotografia span{
+    width: 70%;
+}
+
+
+/*-----------------------------------------------------*/
+
+@media screen and (min-width: 0px) and (max-width: 489px) {
+    .skills {
+            padding: 30px 60px 0px 30px;
+    }
+}
+
+/*-----------------------------------------------------*/
+
+@media screen and (min-width: 490px) and (max-width: 769px) {
+    .skills {
+            padding: 30px 60px 0px 30px;
+    }
+}
+
+/*-----------------------------------------------------*/
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    .skills {
+        padding: 30px 60px 0px 30px;
+    }
+}
+/*-----------------------------------------------------*/
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .skills {
+        padding: 30px 60px;
+    }
+}
+
+/*-----------------------------------------------------*/
+
+@media screen and (min-width: 1281px) {
+    .skills {
+        padding: 30px 60px 0px 30px;
+    }
+}
+

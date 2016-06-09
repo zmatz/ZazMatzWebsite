@@ -1,0 +1,170 @@
+/*fonts*/
+.font_s40{
+	font-size: 40px;
+}
+.fontperc {
+	font-size: 125%;
+}
+p {
+	font-size: 18px;
+}
+/*logos / iconos */
+.logo2{
+	width: 70%;
+}
+.logo{
+	width: 15em;
+}
+.icon{
+	font-size: 50px;
+}
+.icon-facebook{
+	color: #57B5F7;
+	font-size: 45px;
+	padding: 0px 15px;
+	margin-bottom: 2px;
+}
+.icon-twitter{
+	color: #57B5F7;
+	font-size: 45px;
+	padding: 0px 15px;
+	margin-bottom: 2px;
+}
+
+.iconos-2{
+	width: 72px;
+	height: 72px;
+	background-color: #21B0EC;
+	border-radius: 100%;
+	padding: 10px 12px;
+	margin: 85px -48px 0px;
+}
+.logo3{
+	width: 60%;
+}
+
+/*margin y pading*/
+.mg-slogan{
+	margin: 150px 200px 48px;
+}
+.pt_20{
+	padding-top: 20px;
+}
+.mt-5{
+	margin-top: 5%;
+}
+.mt-5{
+	margin-top: -5px;
+}
+
+.pb-5{
+	padding-bottom: 5%;
+}
+.mt-5{
+	margin-top: 5%;
+}
+/*--------*/
+.header-bg{
+	background-image: url(../image/large.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	-webkit-filter: brightness(60%);
+  	-moz-filter: brightness(60%);
+  	filter: brightness(60%);
+  	position: absolute;
+  	z-index: -1;
+}
+.banner_bg{
+	background-color: rgba(53, 125, 167, 0.8);
+	height: 130px;
+	width: 100%;
+	padding: 0px;
+	margin-top: 11%;
+	}
+.text-white{
+	color: white;
+}
+
+.btn-default{
+	background-color: transparent !important;
+	padding: 2px;
+	color: white !important;
+	margin-top: 20px;
+}
+.btn{
+	background-color: transparent !important;
+	font-size: 20px !important;
+	border: solid white 1px !important;
+}
+.text-blue{
+	color: #21B0EC;
+}
+.circle{
+	width: 110px;
+	height: 110px;
+	background-color: white;
+	padding-top: 28px;
+	margin-left: 35%;
+	border-radius: 100%;
+	margin-top: 8%;
+	-webkit-box-shadow: -7px 10px 33px -9px rgba(82,79,82,0.8);
+-moz-box-shadow: -7px 10px 33px -9px rgba(82,79,82,0.8);
+box-shadow: -7px 10px 33px -9px rgba(82,79,82,0.8);
+}
+#servicios h3{
+	color: #1986DA;
+}
+.dark-gray{
+	color: #615D5D;
+}
+.divider{
+	margin-left: 48%;
+	margin-top: -70px;
+}
+.inline{
+	display: inline-block;
+}
+.bg-2{
+	background-image: url(../image/sec-2.jpg);
+	background-size: cover;
+	height: 600px;
+	width: auto;
+	-webkit-filter: brightness(50%);
+  	-moz-filter: brightness(50%);
+  	filter: brightness(50%);
+  	z-index: -1;
+}
+.icon-2{
+	font-size: 44px;
+	color: white;
+}
+.divider_{
+	margin: -9% 47% -3%;
+	z-index: +15;
+	position: relative;
+}
+.banner{
+	width: 100%;
+}
+footer{
+	background-color: #1E3B70;
+	padding: 25px 0px;
+}
+.right{
+	float: right;
+}
+.c_r{
+	margin: 65px 0px 0px 345px;
+}
+.navbar-default {
+  background-color: transparent !important;
+  border-color: #e7e7e7;
+  color: white !important;
+}
+.white{
+	background-color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white !important;
+}

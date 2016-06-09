@@ -1,0 +1,267 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+ .buttons a > span {
+	background-color: #f0f0f0;
+}
+body {
+    color: #797979;
+    font-family: 'Ruda', sans-serif;
+    font-size: 13px;
+    background-color: #f0f0f0;
+
+}
+/*-----MENU DEL DIABLO-----*/
+.sidebar-toogle-box {
+    float: left;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+.sidebar-toggle-box .fa-bars {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    float: left;
+    margin: 15px !important;
+}
+.logo b {
+	background-color: #000033 !important;
+	display: inline;
+	color: white;
+}
+.logo {
+	display: inline-block;
+}
+a.logo {
+    font-size: 20px;
+    color: white;
+    float: left;
+    margin-top: 15px;
+}
+.btn-theme5 {
+	color: white;
+	background-color: #990099;
+}
+#sidebar {
+	width: 210px;
+	color: white;
+	height: 100%;
+	position: fixed;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.sidebar-menu {
+    float: left;
+    list-style: none;
+}
+.sidebar-menu a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.sidebar-menu li {
+    margin: 2px;
+    padding: 25px;
+    color: white;
+}
+.sidebar-menu li:hover {
+	color: white;
+    background-color: #990099;
+    padding: 25px;
+    
+}
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+}
+
+/*------LOGIN------*/
+.bg-white {
+	background-color: white;
+}
+.bg-gray {
+	background-color: #f0f0f0;
+}
+.bg-purple {
+	background-color: #990099;
+}
+.black-bg {
+    background-color: #000033;
+}
+.bg-blue {
+	background-color: #37dbff;
+}
+.text-gray {
+	color: #c8c8c8;
+}
+.form-login {
+	width: 350px;
+	margin: auto;
+}
+.form-login-heading {
+	color: white;
+	text-align: center;
+	background-color: #37dbff;
+	border-radius: 4px 4px 0 0;
+	padding: 3% 25%;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.login-wrap {
+	margin: 5%;
+}
+/*-----BUTTONS PAGE-----*/
+
+.wrapper {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 0 15px 15px;
+    width: 100%;
+}
+.showback {
+    background: white !important;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 2px #aab2bd;
+}
+.showback h4 {
+	background-color: white;
+}
+.btn-round {
+    border-radius: 20px;
+}
+.btn-theme {
+    color: #fff;
+    background-color: #68dff0;
+    border-color: #48bcb4;
+}
+.btn-theme02 {
+    color: #fff;
+    background-color: #ac92ec;
+    border-color: #967adc;
+}
+.btn-theme03 {
+    color: #fff;
+    background-color: #48cfad;
+    border-color: #37bc9b;
+}
+.btn-theme04 {
+    color: #fff;
+    background-color: #ed5565;
+    border-color: #da4453;
+}
+/*-----DASHBOARD-----*/
+.site-min-height {
+	min-height: 800px;
+}
+.box0:hover .box1 {
+    border-bottom: 1px solid #ffffff;
+}
+
+.box0:hover {
+    background: #ffffff;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.box1 {
+	padding: 15px;
+	text-align: center;
+	color: #989898;
+	border-bottom: 1px solid #989898;
+}
+.box1 span {
+    font-size: 50px;
+}
+.ds {
+    background: white;
+    padding-top: 20px;
+}
+.ds .desc {
+    border-bottom: 1px solid #eaeaea;
+    display: inline-block;
+    padding: 15px 0;
+    width: 100%;
+}
+.ds h3 {
+    color: white;
+    font-size: 16px;
+    padding: 0 10px;
+    line-height: 60px;
+    height: 60px;
+    margin: 0;
+    text-align: center;
+}
+.bg-theme {
+    background-color: #37dbff;
+}
+.ds .thumb {
+    width: 30px;
+    margin: 0 10px 0 20px;
+    display: block;
+    float: left;
+    background-color: white;
+}
+.details p, .details muted {
+	background-color: white;
+}
+.buttons a > span, .buttons a > i {
+	background-color: #f0f0f0 !important;
+	color: blue;
+}
+/*-----DATA TABLES-----*/
+.content-panel {
+    background: white;
+    box-shadow: 0px 3px 2px #aab2bd;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.mt {
+    margin-top: 25px;
+}
+.content-panel h4 {
+	background-color: white;
+}
+.content-panel th, .content-panel td {
+	background-color: white;
+}
+/*-----FORMS-----*/
+.form-panel {
+    background: white !important;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 2px #aab2bd;
+    text-align: left;
+}
+.mb {
+    margin-bottom: 25px;
+}
+.form-horizontal .style-form  {
+    border-bottom: 1px solid #eff2f7;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    float: left;
+    background-color: white !important;
+}
+.form-horizontal .control-label {
+    text-align: left;
+    background-color: white !important;
+}
+.form-group {
+	background-color: white !important;
+	margin-left: 0 !important;
+}
+#main-content {
+    margin-left: 200px;
+}

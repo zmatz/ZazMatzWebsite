@@ -1,0 +1,23 @@
+/*Inserta tu Codigo Responsive*/
+@media (max-width: 600px) {
+  	.form-login {
+	width: 280px;	
+}
+    #sidebar {
+        height: auto;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        z-index: 1001;
+    }
+    #main-content {
+        margin: 0px!important;
+        position: none !important;
+    }   
+  }
+  
+#sidebar .btn-navbar.collapsed .arrow {
+        display: none;
+    }
+
+

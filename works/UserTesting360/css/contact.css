@@ -1,0 +1,312 @@
+.large{
+	background-image: url(../image/large.jpg);
+	background-size: cover;
+	background-position: center; 
+}
+
+/*formulario*/
+form{
+	margin-left: 20%;
+}
+
+.contact_form h2 {
+    border-bottom:1px solid #eee;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 433px;
+}
+.contact_form ul {
+    width:750px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+.contact_form li{
+    padding:12px; 
+    position:relative;
+}
+.contact_form label {
+    color: black;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input {
+    height:20px; 
+    width:300px; 
+    padding:5px 8px;
+}
+.contact_form textarea {
+    padding:8px; 
+    width:300px;
+}
+.contact_form button {
+    margin-left:90px;
+}
+.empty{
+	margin-left: 130px;
+	width:200px !important;
+}
+.bg-bco{
+	background-color: white;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+.btn{
+	background-color: #21B0EC !important;
+}
+.line{
+	width: 100%;
+	
+	background-color: #21B0EC !important;
+	height: 20px;
+
+}
+.ml-5{
+	margin-left: 5%;
+}
+.right{
+	float: right;
+	margin-top: -30px;
+	margin-right: 25px;
+}
+
+/*queries formulario*/
+
+@media screen and (max-width: 991px) {
+	.bg-bco{
+	margin-left: 10%;
+	}
+
+	form{
+	margin-left: 10%;
+}
+}
+@media screen and (max-width: 767px) {
+	.bg-bco{
+	
+	margin-left: 3%;
+}
+	form{
+	margin-left: 5%;
+}
+}
+@media screen and (max-width: 750px) {
+	.bg-bco{
+	margin-left: 2%;
+}
+	form{
+	margin-left: 2%;
+}
+}
+@media screen and (max-width: 710px) {
+	.bg-bco{
+	width: 80%;
+	margin-left: 0%;
+}
+	form{
+	margin-left: 1%;
+}
+}
+@media screen and (max-width: 625px) {
+	.bg-bco{
+	width: 90%;
+	margin-left: 0%;
+
+}
+	form{
+	margin-left: 1%;
+}
+
+@media screen and (max-width: 595px) {
+	.bg-bco{
+	width: 100%;
+	margin-left: 0%;
+}
+	form{
+	margin-left: 1%;
+}
+	.contact_form input {
+    height:20px; 
+    width:280px;
+}
+.empty{
+	margin-left: 120px;
+}
+}
+/*CELULARES*/
+@media screen and (max-width: 500px) {
+	.bg-bco{
+	width: 100%;
+	margin-left: 0%;
+}
+	form{
+	margin-left: 1%;
+}
+	.contact_form h2 {
+    width: 433px;
+}
+
+.contact_form textarea {
+    width:200px;
+}
+.contact_form button {
+    margin-left:90px;
+}
+
+	.contact_form input {
+    height:20px; 
+    width:200px;
+}
+.empty{
+	margin-left: 100px;
+}
+}
+
+@media screen and (max-width: 433px) {
+	form{
+	margin-left: 1%;
+}
+
+.contact_form h2 {
+    width: 280px;
+}
+.contact_form ul {
+    width:320px;
+}
+
+.contact_form label {
+    width: 90px;
+}
+.contact_form input {
+    height:20px; 
+    width:180px; 
+}
+.contact_form textarea {
+    width:180px;
+}
+.contact_form button {
+    margin-left:60px;
+}
+.empty{
+	margin-left: 60px;
+}
+.bg-bco{
+	width: 100%;
+	margin-left: 1%;
+}
+
+.ml-5{
+	margin-left: 5%;
+}
+.right{
+	float: none;
+	margin-top: 0px;
+	margin-left: 5%;
+}
+
+}
+
+/*CEL PEQUE*/
+@media screen and (max-width: 388px) {
+	form{
+	margin-left: 1%;
+}
+
+.contact_form h2 {
+    width: 180px;
+}
+.contact_form ul {
+    width:300px;
+}
+.contact_form label {
+    display: block;
+    width: 80px;
+}
+.contact_form input {
+    height:20px; 
+    width:150px; 
+}
+.contact_form textarea {
+    width:150px;
+}
+.contact_form button {
+    margin-left:60px;
+}
+.empty{
+	margin-left: 60px;
+	width:120px !important;
+}
+.bg-bco{
+	width: 100%;
+	margin-left: 1%;
+	margin-bottom: 35%;
+}
+.ml-5{
+	margin-left: 5%;
+}
+.right{
+	float: none;
+	margin-top: 0px;
+	margin-left: 5%;
+}
+
+}
+@media screen and (max-width: 340px) {
+	form{
+	margin-left: 1%;
+}
+
+.contact_form h2 {
+    width: 150px;
+}
+.contact_form ul {
+    width:250px;
+    
+}
+
+.contact_form label {
+    width: 80px;
+}
+.contact_form input {
+    height:20px; 
+    width:150px; 
+}
+.contact_form textarea {
+    width:150px;
+}
+.contact_form button {
+    margin-left:60px;
+}
+.empty{
+	margin-left: 5px;
+}
+.bg-bco{
+	width: 100%;
+	margin-left: 1%;
+	margin-bottom: 25%;
+}
+
+.ml-5{
+	margin-left: 5%;
+}
+.right{
+	float: none;
+	margin-top: 0px;
+	margin-left: 5%;
+}
+
+}
+
